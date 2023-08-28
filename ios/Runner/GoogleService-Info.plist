@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>148450722206-9oa644fac1u7ihgppcc10lhdme07me8o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.148450722206-9oa644fac1u7ihgppcc10lhdme07me8o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC55HpsKHFslKYof_kYOiUduDgXjXNAmb4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>148450722206</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.firtstFlutterProject</string>
+	<key>PROJECT_ID</key>
+	<string>braffa-test-f280b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>braffa-test-f280b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:148450722206:ios:135bf5e079a5e45dbe568f</string>
+</dict>
+</plist>
