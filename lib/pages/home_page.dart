@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firtst_flutter_project/components/braffa_post.dart';
 import 'package:firtst_flutter_project/components/deawer.dart';
 import 'package:firtst_flutter_project/components/text_field.dart';
+import 'package:firtst_flutter_project/helper/helper_methods.dart';
 import 'package:firtst_flutter_project/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
@@ -65,7 +66,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Center(
             child: Text(
-          "The Braffa",
+          "BRAFFA",
         )),
         backgroundColor: Colors.grey[900],
       ),
@@ -98,6 +99,7 @@ class _HomePageState extends State<HomePage> {
                           user: post['UserEmail'],
                           postId: post.id,
                           likes: List<String>.from(post['Likes'] ?? []),
+                          time: formatDate(post['TimeStamp']),
                         );
                       },
                     );
